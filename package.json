@@ -1,0 +1,38 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "nodemon -r esm src/index.js",
+    "prod": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "basetag": "^1.1.0",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "image-to-base64": "^2.1.1",
+    "js-sha1": "^0.6.0",
+    "knex-stringcase": "^1.4.3",
+    "pg": "^8.4.2",
+    "puppeteer": "^5.4.1",
+    "rxjs": "^6.6.3",
+    "simple-node-logger": "^18.12.24",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "copy-webpack-plugin": "^6.3.0",
+    "cross-env": "^7.0.2",
+    "file-loader": "^6.2.0",
+    "nodemon": "^2.0.6",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
