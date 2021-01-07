@@ -1,0 +1,5 @@
+2021/01/05-08:44:36.428 10603 Reusing MANIFEST /Users/khailv/Desktop/post-helper/Google/Chrome/User Data/Default/IndexedDB/https_batdongsan.com.vn_0.indexeddb.leveldb/MANIFEST-000001
+2021/01/05-08:45:05.124 10503 Level-0 table #5: started
+2021/01/05-08:45:05.141 10503 Level-0 table #5: 2190 bytes OK
+2021/01/05-08:45:05.178 10503 Delete type=0 #3
+2021/01/05-08:45:05.178 10503 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

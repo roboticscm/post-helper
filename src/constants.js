@@ -1,0 +1,1 @@
+export const imagePath = '/Users/khailv/Desktop/post-images'

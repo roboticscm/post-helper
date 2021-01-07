@@ -13,15 +13,17 @@
   "license": "ISC",
   "dependencies": {
     "basetag": "^1.1.0",
+    "bufferutil": "^4.0.3",
     "dotenv": "^8.2.0",
     "esm": "^3.2.25",
     "image-to-base64": "^2.1.1",
     "js-sha1": "^0.6.0",
-    "knex-stringcase": "^1.4.3",
     "pg": "^8.4.2",
+    "pg-native": "^3.0.0",
     "puppeteer": "^5.4.1",
     "rxjs": "^6.6.3",
     "simple-node-logger": "^18.12.24",
+    "utf-8-validate": "^5.0.4",
     "webpack-node-externals": "^2.5.2"
   },
   "devDependencies": {
